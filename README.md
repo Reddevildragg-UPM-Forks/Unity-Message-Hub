@@ -1,3 +1,5 @@
+NOTE:This is a fork of the original project just to include on OpenUPM
+
 # Unity Message Hub
 
 A fast, type-safe way to communicate between sub-systems for Unity 4.6+.
@@ -115,8 +117,3 @@ manner.
 
 
 Let me know what you think/feel and how I can improve MessageHub!
-
-ps:
-
-You can download just the Asset Package [here](https://drive.google.com/file/d/0B-rWfhS_vt16cEZmeFFvVnFuX1E/view?usp=sharing).
-
