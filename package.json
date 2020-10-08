@@ -1,6 +1,6 @@
 {
-  "name": "com.external.unity.message-hub",
-  "displayName": "Messager hub",
+  "name": "com.guerrillacontra.unitymessagehub",
+  "displayName": "Message hub",
   "version": "1.0.0",
   "unity": "2018.1",
   "author": "guerrillacontra",
