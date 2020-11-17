@@ -1,11 +1,11 @@
 {
   "name": "com.guerrillacontra.unitymessagehub",
   "displayName": "Message hub",
-  "version": "1.1.101",
+  "version": "1.1.102",
   "unity": "2018.1",
   "author": "guerrillacontra",
   "description": "A fast, light messaging system that can decouple behaviours and keep them cohesive",
-   "repository": "https://github.com/guerrillacontra/Unity-Message-Hub",
+  "repository": "https://github.com/guerrillacontra/Unity-Message-Hub",
   "license": "MIT",
   "type": "library"
 }
