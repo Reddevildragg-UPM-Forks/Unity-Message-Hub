@@ -14,14 +14,14 @@ namespace IntrovertStudios.Messaging
 	public interface IMessageHub<TKey>
 	{
 		void Connect(TKey id, Action handler);
-		void Connect<T>(TKey id, Action<T> handler) where T : class;
+		void Connect<T>(TKey id, Action<T> handler);
 
 		void Disconnect(TKey id, Action handler);
-		void Disconnect<T>(TKey id, Action<T> handler) where T : class;
+		void Disconnect<T>(TKey id, Action<T> handler);
 
 		void DisconnectAll();
 
 		void Post(TKey id);
-		void Post<T>(TKey id, T content) where T : class;
+		void Post<T>(TKey id, T content);
 	}
 }
