@@ -1,7 +1,7 @@
 {
   "name": "com.guerrillacontra.unitymessagehub",
   "displayName": "Message hub",
-  "version": "1.1.001",
+  "version": "1.1.1",
   "unity": "2018.1",
   "author": "guerrillacontra",
   "description": "A fast, light messaging system that can decouple behaviours and keep them cohesive",
