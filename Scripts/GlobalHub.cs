@@ -24,7 +24,7 @@ namespace IntrovertStudios.Messaging
 			_hub.Connect(id, handler);
 		}
 
-		public static void Connect<T> (object id, System.Action<T> handler) where T : class
+		public static void Connect<T> (object id, System.Action<T> handler)
 		{
 			_hub.Connect<T>(id, handler);
 		}
@@ -34,7 +34,7 @@ namespace IntrovertStudios.Messaging
 			_hub.Disconnect(id, handler);
 		}
 
-		public static void Disconnect<T> (object id, System.Action<T> handler) where T : class
+		public static void Disconnect<T> (object id, System.Action<T> handler)
 		{
 			_hub.Disconnect<T>(id, handler);
 		}
@@ -49,7 +49,7 @@ namespace IntrovertStudios.Messaging
 			_hub.Post(id);
 		}
 
-		public static void Post<T> (object id, T content) where T : class
+		public static void Post<T> (object id, T content)
 		{
 			_hub.Post<T>(id, content);
 		}

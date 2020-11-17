@@ -21,7 +21,7 @@ namespace IntrovertStudios.Messaging
 			connections.Add(handler);
 		}
 
-		public void Connect<T> (TKey id, Action<T> handler) where T : class
+		public void Connect<T> (TKey id, Action<T> handler)
 		{
 			List<object> connections = GetTypedConnectionList(typeof(T), id);
 		
@@ -34,7 +34,7 @@ namespace IntrovertStudios.Messaging
 			connections.Remove(handler);
 		}
 
-		public void Disconnect <T>(TKey id, Action<T> handler) where T:class
+		public void Disconnect <T>(TKey id, Action<T> handler)
 		{
 			List<object> connections = GetTypedConnectionList(typeof(T), id);
 
@@ -57,7 +57,7 @@ namespace IntrovertStudios.Messaging
 			}
 		}
 
-		public void Post<T> (TKey id, T content) where T : class
+		public void Post<T> (TKey id, T content)
 		{
 			List<object> connections = GetTypedConnectionList(typeof(T), id);
 
